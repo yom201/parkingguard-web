@@ -1,0 +1,20 @@
+# Parking Guard
+
+> Parking Guard is a smartphone app that turns a parked car's phone into a
+> surveillance camera, capturing evidence (readable license plates and faces)
+> of hit-and-run, door dings, and vandalism while the vehicle is parked.
+
+## Overview
+Parking Guard detects motion, sound, and impact while your car is parked,
+records video evidence, and can automatically back up detections to Google
+Drive and notify you by Gmail.
+
+## Pages
+- English (default): https://parkingguard.app/
+- 日本語: https://parkingguard.app/ja/
+- Deutsch: https://parkingguard.app/de/
+- Español: https://parkingguard.app/es/
+
+## Resources
+- Sitemap: https://parkingguard.app/sitemap.xml
+- Robots: https://parkingguard.app/robots.txt
