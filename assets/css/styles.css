@@ -432,10 +432,6 @@ html.lightbox-open body {
   overflow: hidden;
 }
 
-.screen-strip-section + #evidence {
-  padding-top: 84px;
-}
-
 .section {
   position: relative;
   padding: 112px 0;
@@ -480,6 +476,52 @@ h2 {
   margin-top: 20px;
   color: var(--muted);
   font-size: clamp(1.05rem, 1.7vw, 1.32rem);
+}
+
+.setup-section {
+  padding: 88px 0 100px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    linear-gradient(180deg, rgba(212, 166, 64, 0.08), rgba(255, 255, 255, 0.02) 58%, rgba(255, 255, 255, 0.01)),
+    #050505;
+}
+
+.setup-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: 42px;
+  align-items: end;
+}
+
+.setup-copy .lede {
+  margin-top: 0;
+}
+
+.setup-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 42px;
+}
+
+.setup-item {
+  min-height: 190px;
+  padding: 26px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(212, 166, 64, 0.13), rgba(255, 255, 255, 0.045));
+}
+
+.setup-item h3 {
+  color: var(--gold-bright);
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  line-height: 1.02;
+}
+
+.setup-item p {
+  margin-top: 18px;
+  color: rgba(247, 244, 234, 0.82);
 }
 
 .proof-grid {
@@ -874,15 +916,21 @@ h2 {
   }
 
   .proof-grid,
+  .setup-grid,
   .feature-grid,
   .limit-grid,
   .privacy-list {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .setup-copy,
   .product-stage,
   .faq {
     grid-template-columns: 1fr;
+  }
+
+  .setup-copy .lede {
+    margin-top: 0;
   }
 
   .use-case-gallery {
@@ -983,10 +1031,28 @@ h2 {
   }
 
   .proof-grid,
+  .setup-grid,
   .feature-grid,
   .limit-grid,
   .privacy-list {
     grid-template-columns: 1fr;
+  }
+
+  .setup-section {
+    padding: 68px 0 76px;
+  }
+
+  .setup-copy {
+    gap: 22px;
+  }
+
+  .setup-grid {
+    margin-top: 30px;
+  }
+
+  .setup-item {
+    min-height: 0;
+    padding: 22px;
   }
 
   .phone-stack {
