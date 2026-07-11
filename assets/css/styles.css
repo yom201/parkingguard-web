@@ -880,8 +880,8 @@ h2 {
 
 .sensitivity-level {
   display: grid;
-  grid-template-columns: 34px minmax(0, 1fr);
-  gap: 10px;
+  grid-template-columns: minmax(58px, max-content) minmax(0, 1fr);
+  gap: 12px;
   align-items: start;
   padding-top: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.09);
@@ -894,12 +894,15 @@ h2 {
 
 .sensitivity-level strong {
   display: grid;
+  min-width: 58px;
   min-height: 26px;
+  padding: 0 8px;
   place-items: center;
   border: 1px solid rgba(212, 166, 64, 0.25);
   border-radius: 999px;
   color: var(--text);
-  font-size: 0.78rem;
+  font-size: 0.76rem;
+  white-space: nowrap;
   background: rgba(212, 166, 64, 0.12);
 }
 
