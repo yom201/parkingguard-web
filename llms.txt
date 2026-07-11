@@ -14,6 +14,12 @@ Drive and notify you by Gmail.
 - 日本語: https://parkingguard.app/ja/
 - Deutsch: https://parkingguard.app/de/
 - Español: https://parkingguard.app/es/
+- Parking lot hit-and-run evidence: https://parkingguard.app/parking-lot-hit-and-run-evidence.html
+- Door ding evidence: https://parkingguard.app/door-ding-evidence.html
+- Car vandalism evidence: https://parkingguard.app/car-vandalism-evidence.html
+- Spare phone car security camera: https://parkingguard.app/spare-phone-car-security-camera.html
+- Dash cam parking mode alternative: https://parkingguard.app/dash-cam-parking-mode-alternative.html
+- Parked car monitoring app: https://parkingguard.app/parked-car-monitoring-app.html
 
 ## Resources
 - Sitemap: https://parkingguard.app/sitemap.xml

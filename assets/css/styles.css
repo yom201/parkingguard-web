@@ -1039,6 +1039,248 @@ body.legal-page::before {
   background: rgba(212, 166, 64, 0.1);
 }
 
+.seo-hub-section {
+  padding-top: 86px;
+  background:
+    linear-gradient(180deg, rgba(114, 187, 255, 0.05), rgba(255, 255, 255, 0.01)),
+    #040404;
+}
+
+.seo-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.seo-hub-card {
+  display: grid;
+  min-height: 230px;
+  align-content: start;
+  gap: 14px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.035));
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.seo-hub-card:hover,
+.seo-hub-card:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(242, 210, 122, 0.5);
+  background: linear-gradient(180deg, rgba(212, 166, 64, 0.13), rgba(255, 255, 255, 0.045));
+}
+
+.seo-hub-card span,
+.guide-related-grid span {
+  color: var(--gold-bright);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.seo-hub-card strong {
+  color: var(--text);
+  font-size: 1.28rem;
+  line-height: 1.15;
+}
+
+.seo-hub-card em {
+  color: var(--muted);
+  font-style: normal;
+}
+
+.seo-page::before {
+  background:
+    radial-gradient(circle at 74% 8%, rgba(114, 187, 255, 0.12), transparent 30rem),
+    radial-gradient(circle at 18% 0%, rgba(212, 166, 64, 0.14), transparent 28rem),
+    linear-gradient(180deg, #050505 0%, #030303 48%, #080808 100%);
+}
+
+.guide-hero {
+  padding: 86px 0 58px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.guide-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.02fr) minmax(320px, 0.72fr);
+  gap: clamp(30px, 5vw, 70px);
+  align-items: center;
+}
+
+.guide-hero-copy h1 {
+  max-width: 860px;
+  margin-top: 14px;
+  font-size: clamp(2.8rem, 6.6vw, 6.7rem);
+  line-height: 0.92;
+}
+
+.guide-lede {
+  max-width: 760px;
+  margin-top: 22px;
+  color: rgba(247, 244, 234, 0.82);
+  font-size: clamp(1.08rem, 1.8vw, 1.34rem);
+}
+
+.guide-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.guide-chip-row span {
+  padding: 7px 11px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 999px;
+  color: rgba(247, 244, 234, 0.78);
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 0.86rem;
+}
+
+.guide-hero-media {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  background: #050505;
+  box-shadow: var(--shadow);
+}
+
+.guide-hero-media img {
+  width: 100%;
+  max-height: 720px;
+  object-fit: cover;
+}
+
+.guide-summary-section {
+  padding: 44px 0 86px;
+}
+
+.guide-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.guide-summary-card {
+  min-height: 176px;
+  padding: 24px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(212, 166, 64, 0.12), rgba(255, 255, 255, 0.04));
+}
+
+.guide-summary-card h2 {
+  margin: 0;
+  color: var(--gold-bright);
+  font-size: clamp(1.3rem, 2.2vw, 1.9rem);
+  line-height: 1.08;
+}
+
+.guide-summary-card p {
+  margin-top: 14px;
+  color: rgba(247, 244, 234, 0.78);
+}
+
+.guide-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
+  gap: 34px;
+  align-items: start;
+}
+
+.guide-article {
+  padding: clamp(24px, 4vw, 46px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(17, 17, 19, 0.8);
+}
+
+.guide-article section + section {
+  margin-top: 40px;
+  padding-top: 36px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.guide-article h2 {
+  font-size: clamp(1.75rem, 3.6vw, 3rem);
+  line-height: 1;
+}
+
+.guide-article p {
+  margin-top: 16px;
+  color: rgba(247, 244, 234, 0.8);
+  font-size: 1.03rem;
+}
+
+.guide-article ul {
+  margin: 18px 0 0;
+  padding-left: 1.2rem;
+  color: rgba(247, 244, 234, 0.78);
+}
+
+.guide-article li + li {
+  margin-top: 8px;
+}
+
+.guide-side-panel {
+  position: sticky;
+  top: 92px;
+  padding: 24px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(212, 166, 64, 0.14), rgba(114, 187, 255, 0.06)),
+    #080808;
+}
+
+.guide-side-panel h2 {
+  margin-top: 12px;
+  font-size: clamp(1.55rem, 2.4vw, 2.25rem);
+  line-height: 1.03;
+}
+
+.guide-side-panel ul {
+  display: grid;
+  gap: 10px;
+  margin: 22px 0;
+  padding-left: 1.1rem;
+  color: rgba(247, 244, 234, 0.78);
+}
+
+.guide-related-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.guide-related-grid a {
+  display: grid;
+  gap: 10px;
+  min-height: 160px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.045);
+  transition: transform 160ms ease, border-color 160ms ease;
+}
+
+.guide-related-grid a:hover,
+.guide-related-grid a:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(242, 210, 122, 0.5);
+}
+
+.guide-related-grid strong {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
 @media (max-width: 920px) {
   .nav-links .hide-small {
     display: none;
@@ -1067,13 +1309,17 @@ body.legal-page::before {
   .setup-grid,
   .feature-grid,
   .limit-grid,
-  .privacy-list {
+  .privacy-list,
+  .seo-hub-grid,
+  .guide-summary-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .setup-copy,
   .product-stage,
-  .faq {
+  .faq,
+  .guide-hero-grid,
+  .guide-layout {
     grid-template-columns: 1fr;
   }
 
@@ -1109,6 +1355,14 @@ body.legal-page::before {
 
   .legal-toc strong {
     grid-column: 1 / -1;
+  }
+
+  .guide-side-panel {
+    position: static;
+  }
+
+  .guide-related-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1199,7 +1453,10 @@ body.legal-page::before {
   .setup-grid,
   .feature-grid,
   .limit-grid,
-  .privacy-list {
+  .privacy-list,
+  .seo-hub-grid,
+  .guide-summary-grid,
+  .guide-related-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1257,6 +1514,23 @@ body.legal-page::before {
   }
 
   .legal-card {
+    padding: 22px;
+  }
+
+  .guide-hero {
+    padding: 58px 0 34px;
+  }
+
+  .guide-hero-copy h1 {
+    font-size: clamp(2.55rem, 12vw, 4.35rem);
+  }
+
+  .guide-summary-section {
+    padding: 34px 0 70px;
+  }
+
+  .guide-article,
+  .guide-side-panel {
     padding: 22px;
   }
 }
