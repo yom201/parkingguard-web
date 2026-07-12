@@ -1109,6 +1109,32 @@ body.legal-page::before {
   background: rgba(212, 166, 64, 0.1);
 }
 
+.parking-mode-section {
+  padding-top: 0;
+}
+
+.parking-mode-band {
+  position: relative;
+  overflow: hidden;
+  padding: 54px 28px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  text-align: center;
+  background:
+    linear-gradient(135deg, rgba(212, 166, 64, 0.15), rgba(114, 187, 255, 0.08) 46%, rgba(255, 255, 255, 0.025)),
+    #070707;
+}
+
+.parking-mode-band h2 {
+  color: var(--text);
+}
+
+.parking-mode-band .lede {
+  width: min(100%, 760px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .seo-hub-section {
   padding-top: 86px;
   background:

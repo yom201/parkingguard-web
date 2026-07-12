@@ -45,6 +45,50 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://parkingguard.app/"/>
   </url>
   <url>
+    <loc>https://parkingguard.app/parking-mode-app.html</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://parkingguard.app/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://parkingguard.app/de/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://parkingguard.app/es/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://parkingguard.app/ja/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkingguard.app/parking-mode-app.html"/>
+  </url>
+  <url>
+    <loc>https://parkingguard.app/de/parking-mode-app.html</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://parkingguard.app/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://parkingguard.app/de/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://parkingguard.app/es/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://parkingguard.app/ja/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkingguard.app/parking-mode-app.html"/>
+  </url>
+  <url>
+    <loc>https://parkingguard.app/es/parking-mode-app.html</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://parkingguard.app/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://parkingguard.app/de/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://parkingguard.app/es/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://parkingguard.app/ja/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkingguard.app/parking-mode-app.html"/>
+  </url>
+  <url>
+    <loc>https://parkingguard.app/ja/parking-mode-app.html</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://parkingguard.app/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://parkingguard.app/de/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://parkingguard.app/es/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://parkingguard.app/ja/parking-mode-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkingguard.app/parking-mode-app.html"/>
+  </url>
+  <url>
     <loc>https://parkingguard.app/privacy-policy.html</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
