@@ -936,6 +936,58 @@ h2 {
   margin-left: auto;
 }
 
+.store-download {
+  display: grid;
+  width: min(100%, 680px);
+  margin: 30px auto 0;
+  padding: 24px;
+  grid-template-columns: 184px minmax(0, 1fr);
+  align-items: center;
+  gap: 28px;
+  border: 1px solid rgba(242, 210, 122, 0.28);
+  border-radius: 8px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.store-qr-link {
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.34);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.store-qr-link:hover,
+.store-qr-link:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.44);
+}
+
+.store-qr {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  image-rendering: pixelated;
+}
+
+.store-download-copy h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(1.25rem, 2.3vw, 1.72rem);
+  line-height: 1.2;
+}
+
+.store-download-copy p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.store-download-copy .button {
+  margin-top: 18px;
+}
+
 .footer {
   padding: 46px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
@@ -1513,6 +1565,18 @@ body.legal-page::before {
 
   .trust-row {
     display: none;
+  }
+
+  .store-download {
+    padding: 22px 18px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .store-qr-link {
+    width: min(70vw, 184px);
+    margin: 0 auto;
   }
 
   .screen-strip-section {
